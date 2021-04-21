@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content:  center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+p{
+    color: greenyellow;
+    text-align: center;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+
+
+#canvas{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+    #score{
+        text-align: center;
+        margin-top: 200px;
+        color: #fefe;
+        font-size: 50px;
+    }
+    #recommencer{
+        color: orange;
+        text-align: center;
+        display: none;
+    }
